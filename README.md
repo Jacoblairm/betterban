@@ -11,7 +11,7 @@ The only case that this plugin is inneffective is if the client changes their IP
 Drag betterban.smx into your Sourcemod plugins folder and restart your server or type "sm plugins load betterban" into the server console.
 
 #Usage
-betterban \<clientid> <(Optional) Message to user>
+`betterban \<clientid> <(Optional) Message to user>`
 
 Hint:
 
@@ -20,8 +20,8 @@ Hint:
 2. Message needs to be quoted.
 example: 
 
-betterban 1 "You have been banned for wallhacking"
+`betterban 1 "You have been banned for wallhacking"`
 
 Each entry of IP addresses (along with a EPOCH timestamp) are stored line by line in addons/sourcemod/configs/iplist.cfg
 
-ConVar "bb_ip_banlength" determines the time (in seconds) that the IP addresses will ban a client, after this time the IP addresses will be removed from the iplist.cfg file. The default time is 432000 (5 days).
+ConVar `bb_ip_banlength` determines the time (in seconds) that the IP addresses will ban a client, after this time the IP addresses will be removed from the iplist.cfg file. The default time is 432000 (5 days).
