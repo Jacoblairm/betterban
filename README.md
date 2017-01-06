@@ -1,7 +1,7 @@
 # BetterBan
 BetterBan will SteamId ban a user when they are IP rejected from the server.
 
-Banning a Steam client from your server will just allow the user to change account and continue playing on the server. BetterBan will ban the client and also for a specified amount of time ("bb_ip_banlength") will ban every user that attempt to connect using the same IP address.
+Banning a Steam client from your server will just allow the user to change account and continue playing on the server. BetterBan will ban the client and also for a specified amount of time `bb_ip_banlength` will ban every user that attempt to connect using the same IP address.
 
 You might be thinking, why dont I just ban their IP? Well this will work but wouldn't you like to ban their second account or third account (and so on) that try to connect but are IP rejected? This is the functionality of this plugin. 
 
