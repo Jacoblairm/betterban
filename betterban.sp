@@ -13,6 +13,13 @@ public OnPluginStart()
 {
 	RegAdminCmd("betterban", banUser, ADMFLAG_CUSTOM1, "Ban User on IP Detection");
 	CreateConVar("bb_ip_banlength", "432000", "Time in seconds that IP is valid, Default 5 days, 0 for unlimited");
+	decl String:path[PLATFORM_MAX_PATH];
+	BuildPath(Path_SM,path,PLATFORM_MAX_PATH,"configs/iplist.cfg");
+	if(!FileExists(path))
+	{
+		new Handle:createFile=OpenFile(path,"w");
+		CloseHandle(createFile);
+	}
 }
 
 
@@ -95,6 +102,7 @@ public Action:banUser(int client, int args)
 	new String:line[128];
 	GetCmdArg(1, arg1, sizeof(arg1));
 	GetCmdArg(2, arg2, sizeof(arg2));
+	
 	int clientId = StringToInt(arg1[0]);
 	if(clientId > 0 && IsClientConnected(clientId))
 	{
