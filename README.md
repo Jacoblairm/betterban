@@ -18,4 +18,5 @@ Hint:
 
 2. Message needs to be quoted.
 example: 
+
 betterban 1 "You have been banned for wallhacking"
