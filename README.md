@@ -14,9 +14,8 @@ Drag betterban.smx into your Sourcemod plugins folder and restart your server or
 betterban <clientid> <(Optional) Message to user>
 Hint:
 
-![Alt text](http://puu.sh/tcQLn/61d6bcb848.png "Status Output")
 1. The clientid can be retrieved by typing status and use the second userid digit. 
-As highlighted in this image 
+As highlighted in this image ![Alt text](http://puu.sh/tcQLn/61d6bcb848.png "Status Output")
 
 2. Message needs to be quoted.
 example: 
