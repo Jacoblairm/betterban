@@ -11,7 +11,7 @@ The only case that this plugin is inneffective is if the client changes their IP
 Drag betterban.smx into your Sourcemod plugins folder and restart your server or type "sm plugins load betterban" into the server console.
 
 #Usage
-betterban <clientid> <(Optional) Message to user>
+betterban \<clientid> <(Optional) Message to user>
 
 Hint:
 
