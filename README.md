@@ -14,6 +14,6 @@ Drag betterban.smx into your Sourcemod plugins folder and restart your server or
 #Usage
 betterban <clientid> <(Optional) Message to user>
 Hint: 
-1. The clientid can be retrieved by typing status and use the second userid digit. As highlighted in image - http://puu.sh/tcQLn/61d6bcb848.png
+1. The clientid can be retrieved by typing status and use the second userid digit. As highlighted in this image - http://puu.sh/tcQLn/61d6bcb848.png
 2. Message needs to be quoted
 example: betterban 1 "You have been banned for wallhacking"
