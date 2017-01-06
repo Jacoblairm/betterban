@@ -18,6 +18,7 @@ Hint:
 * The clientid can be retrieved by typing status and using the second userid digit, as highlighted in this image ![Alt text](http://puu.sh/tcQLn/61d6bcb848.png "Status Output")
 
 * Message is optional and needs to be quoted.
+
 example: `betterban 1 "You have been banned for wallhacking"`
 
 Each entry of IP addresses (along with a EPOCH timestamp) are stored line by line in addons/sourcemod/configs/iplist.cfg
